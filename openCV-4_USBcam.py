@@ -4,8 +4,8 @@ from time import time
 
 cap = cv2.VideoCapture(0)
 
-dispW = 1280 / 2
-dispH = 720 / 1.5
+dispW = int(1280 / 2)
+dispH = int(720 / 1.5)
 fps = 0
 pos = (30, 60)
 font = cv2.FONT_HERSHEY_SIMPLEX
