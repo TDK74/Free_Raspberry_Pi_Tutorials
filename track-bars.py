@@ -22,7 +22,7 @@ def TrackY(val):
 
 def TrackW(val):
     global boxW
-    # to avoid breaking the program, when it gets to 0
+    # to avoid breaking the program, when it gets to 0 
     if val <= 10:
         val = 10
 
@@ -31,7 +31,7 @@ def TrackW(val):
 
 def TrackH(val):
     global boxH
-    # to avoid breaking the program, when it gets to 0
+    # to avoid breaking the program, when it gets to 0 
     if val <= 10:
         val = 10
 
