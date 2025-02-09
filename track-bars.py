@@ -22,11 +22,19 @@ def TrackY(val):
 
 def TrackW(val):
     global boxW
+    # to avoid breaking the program, when it gets to 0
+    if val <= 10:
+        val = 10
+
     boxW = val
     print('Box Width', boxW)
 
 def TrackH(val):
     global boxH
+    # to avoid breaking the program, when it gets to 0
+    if val <= 10:
+        val = 10
+
     boxH = val
     print('Box Height', boxH)
 
