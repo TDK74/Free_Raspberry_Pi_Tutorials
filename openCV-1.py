@@ -9,6 +9,7 @@ piCam.preview_configuration.align()
 piCam.configure("preview")
 piCam.start()
 
+# try... except... finally... is now in the Lessons, added by me
 try:
     while True:
         frame = piCam.capture_array()
