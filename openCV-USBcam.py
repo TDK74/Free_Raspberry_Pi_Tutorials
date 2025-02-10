@@ -9,6 +9,7 @@ if not cap.isOpened():
     print("Can't open the USB camera.")
     exit()
 
+# try... except... finally... is not in the Lessons, added by me
 try:
     while True:
         ret, frame = cap.read()
