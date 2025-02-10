@@ -116,7 +116,7 @@ try:
             cv2.rectangle(frame, (x, y), ((x + w), (y + h)), (0, 0, 255), 3)
             
             if track == 1:
-                errorPan = (x + w / 2) - (dispW / 2)
+                errorPan = (x + int(w / 2)) - int(dispW / 2)
                 
                 if errorPan > 35:
                     panAngle = panAngle - 1
@@ -134,7 +134,7 @@ try:
                     
                     my_servo.servo[0].angle = panAngle
                     
-                errorTilt = (y + h / 2) - (dispH / 2)
+                errorTilt = (y + int(h / 2)) - int(dispH / 2)
                 
                 if errorTilt > 35:
                     tiltAngle = tiltAngle - 1
