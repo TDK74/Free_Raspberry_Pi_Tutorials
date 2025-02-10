@@ -66,7 +66,7 @@ weight = 3
 
 picam2.preview_configuration.main.size = (dispW, dispH)
 picam2.preview_configuration.main.format = "RGB888"
-#picam2.preview_configuration.controls.FrameRate = 30    # comment it if USB camera
+picam2.preview_configuration.controls.FrameRate = 30    # comment it if USB camera
 picam2.preview_configuration.align()
 picam2.configure("preview")
 picam2.start()
