@@ -170,10 +170,6 @@ try:
 
 except KeyboardInterrupt:
     print("User's Ctrl+C detected.")
-    my_servo.servo[0].angle = pan_initial
-    my_servo.servo[1].angle = tilt_initial
-    sleep(delay)
-    print("Servo-motors are at the initial position.")
 
 finally:
     cap.release()
