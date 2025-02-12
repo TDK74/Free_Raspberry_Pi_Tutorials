@@ -2,7 +2,7 @@
 
 Based on the YouTube series of (the Grand Master) Paul McWhorter. Mister/Master Paul McWhorter is legendary.
 
-https://www.youtube.com/playlist?list=PLGs0VKk2DiYxdMjCJmcP6jt4Yw6OHK85O
+<https://www.youtube.com/playlist?list=PLGs0VKk2DiYxdMjCJmcP6jt4Yw6OHK85O>
 
 **Note:**
 
@@ -55,8 +55,9 @@ That's why I had to adapt from time to time the code etc. in order to work for m
 
 **Memory size:** 1.6 GiB
 
-**Memory with Swap:**  GiB
+**Memory with Swap:**  2 GiB
 
+**Memory GPU:** 256 MB
 
 * **Software**
 
@@ -83,6 +84,8 @@ That's why I had to adapt from time to time the code etc. in order to work for m
 
 **Libraries**
 
-**OpenCV:**
+**OpenCV:** 4.11.0
 
 **YOLO:**
+
+**TensorFlow Lite:** 0.4.3 (tflite-support)
