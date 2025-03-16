@@ -25,7 +25,7 @@ class CameraThread(threading.Thread):
         while True:
             if self.use_picam2:
                 self.frame = self.picam2.capture_array()
-                self.ret = True  # Picam2 винаги връща True
+                self.ret = True  # Picam2 always returns True
             else:
                 self.ret, self.frame = self.cam.read()
                 if not self.ret:
