@@ -91,6 +91,6 @@ That's why I had to adapt from time to time the code etc. in order to work for m
 **TensorFlow Lite:** 0.4.3 (tflite-support)
   
   
-### Video demo
+## Video demo
 Link to my illustrative Youtube video:  
 https://youtu.be/UrYEcI575t4
